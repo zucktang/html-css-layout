@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.logo a{
+  text-decoration: None;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px ;
+}
+
+.menu {
+  display: flex;
+  list-style: None;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.menu li a {
+  text-decoration: None;
+  color: #333
+}
+
